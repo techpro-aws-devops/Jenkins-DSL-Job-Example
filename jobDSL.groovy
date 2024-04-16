@@ -1,4 +1,4 @@
-job('run-python-script-job') {
+job('run-python-script-job-DSL') {
     description 'Runs a Python script from the repository.'
     scm {
         git('https://github.com/techpro-aws-devops/Jenkins-DSL-Job-Example.git', 'main')
