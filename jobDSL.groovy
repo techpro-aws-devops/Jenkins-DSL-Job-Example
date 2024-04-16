@@ -1,7 +1,7 @@
 job('run-python-script-job') {
     description 'Runs a Python script from the repository.'
     scm {
-        git('https://github.com/techpro-aws-devops/Jenkins-DSL-Job-Example.git')
+        git('https://github.com/techpro-aws-devops/Jenkins-DSL-Job-Example.git', 'main')
     }
     triggers {
         scm('* * * * *')  // Her dakika
